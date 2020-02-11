@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Blit3D basefiles">
+      <UniqueIdentifier>{ff31e984-6dcc-45b0-beb5-4362ac00a0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Blit3D basefiles\GLFW">
+      <UniqueIdentifier>{4ade3d3b-70c9-4e0b-bb09-bab58b1100d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Blit3D basefiles\Blit3D">
+      <UniqueIdentifier>{b7ba67a3-3aec-4d2a-b7c4-8c276cd518b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Blit3D basefiles\GLEW">
+      <UniqueIdentifier>{71c06ed4-5318-45c3-a478-e0bb26d36907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Files">
+      <UniqueIdentifier>{5a0a4cb4-fb39-4a21-b418-92619cffa7e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MenuBuilder">
+      <UniqueIdentifier>{29f5b635-bec5-42d3-8194-98f1b7de34b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MenuBuilder">
+      <UniqueIdentifier>{bd6487be-61b5-4ff4-aeee-ff43655f8bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data Structures">
+      <UniqueIdentifier>{b2ddb96a-03d0-487a-bac4-37973ed07b2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Structures">
+      <UniqueIdentifier>{9746c06d-d52d-4a1d-b6d4-2f21779419e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Blit3DBaseFiles\GLFW\context.c">
+      <Filter>Source Files\Blit3D basefiles\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\GLFW\egl_context.c">
+      <Filter>Source Files\Blit3D basefiles\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\GLFW\init.c">
+      <Filter>Source Files\Blit3D basefiles\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\GLFW\input.c">
+      <Filter>Source Files\Blit3D basefiles\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\GLFW\monitor.c">
+      <Filter>Source Files\Blit3D basefiles\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\GLFW\vulkan.c">
+      <Filter>Source Files\Blit3D basefiles\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\GLFW\wgl_context.c">
+      <Filter>Source Files\Blit3D basefiles\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\GLFW\win32_init.c">
+      <Filter>Source Files\Blit3D basefiles\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\GLFW\win32_joystick.c">
+      <Filter>Source Files\Blit3D basefiles\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\GLFW\win32_monitor.c">
+      <Filter>Source Files\Blit3D basefiles\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\GLFW\win32_time.c">
+      <Filter>Source Files\Blit3D basefiles\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\GLFW\win32_tls.c">
+      <Filter>Source Files\Blit3D basefiles\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\GLFW\win32_window.c">
+      <Filter>Source Files\Blit3D basefiles\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\GLFW\window.c">
+      <Filter>Source Files\Blit3D basefiles\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\Blit3D\AngelcodeFont.cpp">
+      <Filter>Source Files\Blit3D basefiles\Blit3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\Blit3D\BFont.cpp">
+      <Filter>Source Files\Blit3D basefiles\Blit3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\Blit3D\Blit3D.cpp">
+      <Filter>Source Files\Blit3D basefiles\Blit3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\Blit3D\ByteSwap.cpp">
+      <Filter>Source Files\Blit3D basefiles\Blit3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\Blit3D\glslprogram.cpp">
+      <Filter>Source Files\Blit3D basefiles\Blit3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\Blit3D\glutils.cpp">
+      <Filter>Source Files\Blit3D basefiles\Blit3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\Blit3D\Logger.cpp">
+      <Filter>Source Files\Blit3D basefiles\Blit3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\Blit3D\RenderBuffer.cpp">
+      <Filter>Source Files\Blit3D basefiles\Blit3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\Blit3D\ShaderManager.cpp">
+      <Filter>Source Files\Blit3D basefiles\Blit3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\Blit3D\Sprite.cpp">
+      <Filter>Source Files\Blit3D basefiles\Blit3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\Blit3D\TextureManager.cpp">
+      <Filter>Source Files\Blit3D basefiles\Blit3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Blit3DBaseFiles\GLEW\glew.c">
+      <Filter>Source Files\Blit3D basefiles\GLEW</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlitButton.cpp">
+      <Filter>Source Files\MenuBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="BlitElement.cpp">
+      <Filter>Source Files\MenuBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="BlitMenu.cpp">
+      <Filter>Source Files\MenuBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="BlitUI.cpp">
+      <Filter>Source Files\MenuBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuFunctionality.cpp">
+      <Filter>Source Files\MenuBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuManager.cpp">
+      <Filter>Source Files\MenuBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="CharNode.cpp">
+      <Filter>Source Files\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="CharMap.cpp">
+      <Filter>Source Files\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="ImprovedWordFind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicWordFind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WordFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HashWordFind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Blit3DBaseFiles\GLEW\GL\glew.h">
+      <Filter>Source Files\Blit3D basefiles\GLEW</Filter>
+    </ClInclude>
+    <ClInclude Include="Blit3DBaseFiles\GLEW\GL\wglew.h">
+      <Filter>Source Files\Blit3D basefiles\GLEW</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlitElement.h">
+      <Filter>Header Files\MenuBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="BlitButton.h">
+      <Filter>Header Files\MenuBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="BlitMenu.h">
+      <Filter>Header Files\MenuBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="BlitUI.h">
+      <Filter>Header Files\MenuBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuManager.h">
+      <Filter>Header Files\MenuBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuFunctionality.h">
+      <Filter>Header Files\MenuBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="CharMap.h">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="CharNode.h">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="HashNode.h">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Coordinates.h">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="WordFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Puzzle_1.txt">
+      <Filter>Data Files</Filter>
+    </Text>
+    <Text Include="Puzzle_2.txt">
+      <Filter>Data Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
